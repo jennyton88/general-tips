@@ -40,6 +40,8 @@
   - `Unwrap` and choose `Reset` option
 - To align some vertexes along a edge / axis
   - Use `s` with the axis perpendicular to the one you want to straighten and type `0`
+- Flip unwrapped mesh around
+  - `s` along an axis and `-1`
 
 ## Game export
 
