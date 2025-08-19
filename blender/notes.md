@@ -7,7 +7,10 @@
 - `g`: grab any part of the mesh to move around
 - `e`: extrude a new part of the mesh from your starting point, can also type numbers to specify length of extrusion
 - `r`: rotate mesh, can type in angle for exact measurements
-- `f`: create new edges between vertexes, faces between edges 
+- `f`: create new edges between vertexes, faces between edges
+- `k`: knife tool to create new edges across faces
+- `ctrl / CMD + a`: Create loop cuts along faces, can create new vertexes on edges too
+- `shift + n`: to recalculate normals
 
 
 ## Others
@@ -21,9 +24,25 @@
 - `ctrl + a`: for applying transforms
 - `alt / option + click`: to select lined up edges, faces
 - `tab`: to switch between modes like object and edit mode
+- `h`: hide selected faces, edges
+- `alt / option + h`: to unhide all
+- `x`: delete context menu
 
+## Texture paint
+
+- `shift + x`: eyedropper
 
 ## Tips
 
-- Can't select everything in one go? Is x-ray or wireframe mode enabled?
-- Unwrapping several squares onto one texture? Unwrap and Reset
+- Can't select everything in one go
+  - Check if `x-ray` or `wireframe` mode is enabled
+- Unwrapping several squares onto one texture
+  - `Unwrap` and choose `Reset` option
+- To align some vertexes along a edge / axis
+  - Use `s` with the axis perpendicular to the one you want to straighten and type `0`
+
+## Game export
+
+- Export with Y+ up (default)
+- Godot is Z- direction facing, which is X+ facing in Blender
+  - Rotate 90 degrees on Z axis 
