@@ -42,6 +42,7 @@
   - Use `s` with the axis perpendicular to the one you want to straighten and type `0`
 - Flip unwrapped mesh around
   - `s` along an axis and `-1`
+- If you're stuck painting only straight lines by dragging around the brush instead of normally painting, check stroke and see if you activated stabilise stroke, if you did, disable it, and it's back to normal
 
 ## Game export
 
