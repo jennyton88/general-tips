@@ -47,4 +47,10 @@
 
 - Export with Y+ up (default)
 - Godot is Z- direction facing, which is X+ facing in Blender
-  - Rotate 90 degrees on Z axis 
+  - Rotate 90 degrees on Z axis
+
+### Collisions
+
+- Best to use simple shapes like rectangular prisms
+  - Cut up meshes into rectangular prisms and cubes
+  - Export each one as a separate object within one file (so can generate mesh with single convex for each of them and use in Godot, still not perfect though)
