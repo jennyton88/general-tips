@@ -10,7 +10,7 @@
 
 ## Behaviors
 
-- Static bodies don't intereact with area signals on body entered
+- Static bodies don't interact with area signals on body entered
 
 ## Assets
 
