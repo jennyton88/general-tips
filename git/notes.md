@@ -3,8 +3,10 @@
 # Main commands
 
 - `git checkout [branch_name]`: switch branches
-  - `-b`: switch to new branch
+  - `-b`: create and switch to new branch at the same time
 - `git branch`: get a list of active branches
+  - `-d [branch_name]`: delete that branch only if changes have been merged
+  - `-D [branch_name]`: delete that branch forcefully, if there are changes that haven't been merged
 - `git add [file_name | .]`: stage changes (updated files)
 - `git status`: check your commit status
 - `git commit -m [a_message]`: Commit changes to repo, must have a message related to the changes
